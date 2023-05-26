@@ -1,17 +1,22 @@
-### Hi there 👋
+# Hi there! 👋 I'm PointyBytes.
 
-<!--
-**PointyBytes/PointyBytes** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a passionate Python developer on a journey to master the art of coding. Welcome to my GitHub profile!
 
-Here are some ideas to get you started:
+- 🌱 I'm currently participating in the #100DaysOfCode challenge.
+- 💻 I enjoy working on Python projects and exploring different areas of software development.
+- 📚 Learning new concepts and improving my skills is my daily goal.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-[![GitHub Streak](https://streak-stats.demolab.com?user=PointyBytes&theme=dark&hide_border=true&date_format=j%20M%5B%20Y%5D&hide_total_contributions=true&hide_longest_streak=true)](https://git.io/streak-stats)
+## 100 Days of Code
+
+![100 Days of Code](https://img.shields.io/badge/100%20Days%20of%20Code-Day%203-green)
+
+I'm currently on day 3 of the 100 Days of Code challenge. Follow my progress as I build projects, solve coding challenges, and deepen my understanding of Python.
+
+## GitHub Streak
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=PointyBytes&theme=great-gatsby&type=png)](https://git.io/streak-stats)
+
+Check out my GitHub streak! It represents my continuous contribution and commitment to coding.
+
+
+Happy coding! 🚀
