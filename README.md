@@ -8,9 +8,9 @@ I'm a passionate Python developer on a journey to master the art of coding. Welc
 
 ## 100 Days of Code
 
-![100 Days of Code](https://img.shields.io/badge/100%20Days%20of%20Code-Day%207-green)
+![100 Days of Code](https://img.shields.io/badge/100%20Days%20of%20Code-Day%209-green)
 
-I'm currently on day 7 of the 100 Days of Code challenge. Follow my progress as I build projects, solve coding challenges, and deepen my understanding of Python.
+I'm currently on day 9 of the 100 Days of Code challenge. Follow my progress as I build projects, solve coding challenges, and deepen my understanding of Python.
 
 ## GitHub Streak
 
