@@ -1,11 +1,12 @@
 #!/bin/bash
 
-# Step 1: Install Nginx
-sudo apt-get update
-sudo apt-get install -y nginx
+# Step 1: Install Apache
+sudo apt-get update && sudo apt-get upgrade -y
+sudo apt-get install apache2 -y
+sudo apt-get install php -y
 
 # Step 2: Install MariaDB
-sudo apt-get install -y mariadb-server
+sudo apt-get install mariadb-server -y
 
 # Step 3: Download and extract WordPress
 wget http://wordpress.org/latest.tar.gz
