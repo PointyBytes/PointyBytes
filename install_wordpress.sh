@@ -1,47 +1,56 @@
 #!/bin/bash
 
-# Step 1: Install Apache
-sudo apt-get update && sudo apt-get upgrade -y
-sudo apt-get install apache2 -y
-sudo apt-get install php -y
+# Exit immediately if a command exits with a non-zero status.
+set -e
 
-# Step 2: Install MariaDB
-sudo apt-get install mariadb-server -y
+# Variables for database username and password.
+DB_USER="wordpressuser"
+DB_PASSWORD="password"
 
-# Step 3: Download and extract WordPress
+# Update package list and upgrade existing packages
+sudo apt update
+sudo apt full-upgrade -y
+
+# Install Apache2
+sudo apt install apache2 -y
+
+# Restart Apache2 after installation
+sudo systemctl restart apache2
+
+# Install MariaDB and set up basic security
+sudo apt install mariadb-server -y
+sudo mysql_secure_installation
+
+# Install PHP and necessary extensions for WordPress
+sudo apt install php libapache2-mod-php php-mysql -y
+
+# Restart Apache2 after installing PHP
+sudo systemctl restart apache2
+
+# Download and set up WordPress
 wget http://wordpress.org/latest.tar.gz
-tar -xvzf latest.tar.gz
+tar xzf latest.tar.gz
 
-# Step 4: Configure Nginx
-sudo mv wordpress /var/www/html
-sudo chown -R www-data:www-data /var/www/html/wordpress
-sudo chmod -R 755 /var/www/html/wordpress
-sudo cp /etc/nginx/sites-available/default /etc/nginx/sites-available/wordpress
-sudo sed -i 's|root /var/www/html;|root /var/www/html/wordpress;|' /etc/nginx/sites-available/wordpress
-sudo ln -s /etc/nginx/sites-available/wordpress /etc/nginx/sites-enabled/
+# Ask the user if they want to install WordPress in a subdirectory
+read -p "Do you want to install WordPress in a subdirectory? (y/N): " choice
+if [[ $choice == "y" || $choice == "Y" ]]; then
+    read -p "Enter the name of the subdirectory (e.g., blog): " subdir
+    sudo mv wordpress /var/www/html/$subdir
+else
+    sudo rm -rf /var/www/html/*
+    sudo mv wordpress/* /var/www/html/
+fi
 
-# Step 5: Restart Nginx
-sudo service nginx restart
+sudo chown -R www-data:www-data /var/www/html
+sudo chmod -R 755 /var/www/html
 
-# Step 6: Create a MySQL database and user for WordPress
-# In this step, replace 'wordpressuser' and 'password' with your desired username and password for the WordPress database.
-# For example, if you want the username to be 'myuser' and the password to be 'mypassword', you would replace 'wordpressuser' with 'myuser' and 'password' with 'mypassword'.
-mysql -u root -e "CREATE DATABASE wordpress;"
-mysql -u root -e "CREATE USER 'wordpressuser'@'localhost' IDENTIFIED BY 'password';"
-mysql -u root -e "GRANT ALL PRIVILEGES ON wordpress.* TO 'wordpressuser'@'localhost';"
-mysql -u root -e "FLUSH PRIVILEGES;"
+# Restart Apache2 after moving WordPress
+sudo systemctl restart apache2
 
-# Step 7: Configure WordPress
-# In this step, if you want to use a different name for the database, replace 'wordpress' with your desired name.
-# For example, if you want the database name to be 'mywordpress', you would replace 'wordpress' with 'mywordpress'.
-cp /var/www/html/wordpress/wp-config-sample.php /var/www/html/wordpress/wp-config.php
-sed -i 's|database_name_here|wordpress|' /var/www/html/wordpress/wp-config.php
-sed -i 's|username_here|wordpressuser|' /var/www/html/wordpress/wp-config.php
-sed -i 's|password_here|password|' /var/www/html/wordpress/wp-config.php
+# Create a WordPress database and user
+sudo mysql -e "CREATE DATABASE wordpress DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;"
+sudo mysql -e "GRANT ALL ON wordpress.* TO '$DB_USER'@'localhost' IDENTIFIED BY '$DB_PASSWORD';"
+sudo mysql -e "FLUSH PRIVILEGES;"
 
-# Step 8: Set permissions
-sudo chown -R www-data:www-data /var/www/html/wordpress
-sudo chmod -R 755 /var/www/html/wordpress
-
-# Script completed
-echo "WordPress installation is complete."
+# Provide a message indicating that the script has completed
+echo "WordPress installation completed! Please navigate to your Raspberry Pi's IP address in a browser to finish the WordPress setup."
