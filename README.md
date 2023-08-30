@@ -3,7 +3,7 @@
 Navigating the vast expanse of the coding universe, I often find myself somewhere between the realms of Python wizardry and Raspberry Pi alchemy. Oh, and did I mention a penchant for cracking a joke or two amidst the chaos? That's me in a nutshell.
 
 - 🐍 Python enthusiast? You bet! From scripts that sing (well, sort of) to those that are just finding their voice, it's all here.
-- 🌱 On a quest with the #100DaysOfCode challenge. Day 18 and counting... and trust me, it's not just about the code; it's about the laughter, the tears, and the copious amounts of coffee.
+- 🌱 On a quest with the #100DaysOfCode challenge. Day 20 and counting... and trust me, it's not just about the code; it's about the laughter, the tears, and the copious amounts of coffee.
 - 🎲 When I'm not tinkering with code or my beloved Raspberry Pi (been a fan since its first breath!), you'll find me lost in the world of role-playing games. Whether I'm the mastermind behind the scenes or just rolling the dice, it's all about crafting epic tales.
 - 🃏 Board games? Ah, another passion! Especially if it's a co-op game, where we can all bask in our collective glory (or, occasionally, facepalm together).
 - 📚 Currently channeling my energy into a Python course on Udemy. A certificate looms on the horizon. It's not just about the learning; it's about overcoming challenges, both personal and technical.
