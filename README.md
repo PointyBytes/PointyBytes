@@ -13,7 +13,7 @@ Navigating the vast expanse of the coding universe, I often find myself somewher
 
 ## GitHub Streak
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=PointyBytes&theme=great-gatsby&type=png)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=PointyBytes&theme=shadow-orange&border_radius=5&date_format=j%20M%5B%20Y%5D&type=png)](https://git.io/streak-stats)
 
 
 Dive into my repositories, where code and creativity intertwine. But remember, amidst the 1s and 0s, it's always about the journey and the stories we weave. Cheers to the adventures that await! 🍻
