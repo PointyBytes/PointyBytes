@@ -8,12 +8,11 @@ I'm a Python enthusiast currently teetering on the edge of beginner to intermedi
 
 🃏 And board games? Oh, they're another passion! Especially if it's a co-op game, or better yet, a legacy co-op game where we can all bask in our collective glory (or, occasionally, facepalm together).
 
-📚 Currently channeling my energy into a Python course on Udemy. A certificate looms on the horizon, but it's not just about learning; it's about conquering personal and technical challenges.
+📚 Currently channeling my energy into a [Python](https://www.udemy.com/course/100-days-of-code/) course. A certificate looms on the horizon, but it's not just about learning; it's about conquering personal and technical challenges.
 
-💻 Also, I'm excited about my plans to write an Evennia-based MUD inspired by one of my favorite RPGs. Currently, I'm tinkering with python-tcod, exploring the realms of roguelike game development.
+💻 Also, I'm excited about my plans to write an [Evennia](https://github.com/evennia/evennia)-based MUD inspired by one of my favorite [TTRPGs](https://freeleaguepublishing.com/games/mutant-year-zero/). Currently, I'm tinkering with [python-tcod](https://github.com/libtcod/python-tcod), exploring the realms of roguelike game development.
 
 Let's dive into the code together and see where this journey takes us!
 
 
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=PointyBytes&theme=shadow-orange&border_radius=5&date_format=j%20M%5B%20Y%5D&type=png)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=PointyBytes&theme=shadow-orange&hide_border=true&date_format=%5BY%20%5DM%20j&hide_total_contributions=true)](https://git.io/streak-stats)
