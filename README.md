@@ -1,19 +1,19 @@
 # Hi there! 👋 I'm PointyBytes.
 
-Navigating the vast expanse of the coding universe, I often find myself somewhere between the realms of Python wizardry and Raspberry Pi alchemy. Oh, and did I mention a penchant for cracking a joke or two amidst the chaos? That's me in a nutshell.
+I'm a Python enthusiast currently teetering on the edge of beginner to intermediate programmer status. Picture me as a curious explorer navigating the vast expanse of the coding universe, often finding myself lost amidst the realms of Python wizardry and Raspberry Pi alchemy. Oh, and did I mention I'm gaslighting myself into believing I'm a game developer? 🎮
 
-- 🐍 Python enthusiast? You bet! From scripts that sing (well, sort of) to those that are just finding their voice, it's all here.
-- 🎲 When I'm not tinkering with code or my beloved Raspberry Pi (I've been a fan since its first breath!), you'll find me lost in the world of role-playing games. Whether I'm the mastermind behind the scenes or just rolling the dice, it's all about crafting epic tales.
-- 🃏 Board games? Ah, another passion! Especially if it's a co-op game, or better yet a legacy co-op game where we can all bask in our collective glory (or, occasionally, facepalm together).
-- 📚 Currently channeling my energy into a Python course on Udemy. A certificate looms on the horizon. It's not just about learning; it's about overcoming challenges, both personal and technical.
+🐍 Python enthusiast? Absolutely! From scripts that hum (well, kind of) to those still finding their groove, I'm here for it all.
 
-## 100 Days of Code
+🎲 When I'm not tinkering with code or my beloved Raspberry Pi (I've been a fan since its first breath!), you'll catch me deep in the world of role-playing games. Whether I'm the mastermind behind the scenes or just rolling the dice, it's all about crafting epic tales.
 
-![100 Days of Code](https://img.shields.io/badge/100%20Days%20of%20Code-Day%20"Who's%20counting?"-green)
+🃏 And board games? Oh, they're another passion! Especially if it's a co-op game, or better yet, a legacy co-op game where we can all bask in our collective glory (or, occasionally, facepalm together).
 
-## GitHub Streak
+📚 Currently channeling my energy into a Python course on Udemy. A certificate looms on the horizon, but it's not just about learning; it's about conquering personal and technical challenges.
+
+💻 Also, I'm excited about my plans to write an Evennia-based MUD inspired by one of my favorite RPGs. Currently, I'm tinkering with python-tcod, exploring the realms of roguelike game development.
+
+Let's dive into the code together and see where this journey takes us!
+
+
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=PointyBytes&theme=shadow-orange&border_radius=5&date_format=j%20M%5B%20Y%5D&type=png)](https://git.io/streak-stats)
-
-
-Dive into my repositories, where code and creativity intertwine. But remember, amidst the 1s and 0s, it's always about the journey and the stories we weave. Cheers to the adventures that await! 🍻
