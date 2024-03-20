@@ -15,4 +15,4 @@ I'm a Python enthusiast currently teetering on the edge of beginner to intermedi
 Let's dive into the code together and see where this journey takes us!
 
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=PointyBytes&theme=shadow-orange&hide_border=true&date_format=%5BY%20%5DM%20j&hide_total_contributions=true)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=PointyBytes&theme=shadow-orange&hide_border=true&date_format=j%20M%5B%20Y%5D&card_width=356&hide_total_contributions=true)](https://git.io/streak-stats)
