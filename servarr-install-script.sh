@@ -77,6 +77,7 @@ select app in lidarr prowlarr radarr readarr sonarr whisparr quit; do
         app_prereq="curl sqlite3 libchromaprint-tools mediainfo" # Required packages
         app_umask="0002"                                         # UMask the Service will run as
         branch="master"                                          # {Update me if needed} branch to install
+        dlbase="https://lidarr.servarr.com/v1/update/$branch/updatefile?os=linux&runtime=netcore"
         break
         ;;
     prowlarr)
@@ -84,6 +85,7 @@ select app in lidarr prowlarr radarr readarr sonarr whisparr quit; do
         app_prereq="curl sqlite3" # Required packages
         app_umask="0002"          # UMask the Service will run as
         branch="master"           # {Update me if needed} branch to install
+        dlbase="https://prowlarr.servarr.com/v1/update/$branch/updatefile?os=linux&runtime=netcore"
         break
         ;;
     radarr)
@@ -91,6 +93,7 @@ select app in lidarr prowlarr radarr readarr sonarr whisparr quit; do
         app_prereq="curl sqlite3" # Required packages
         app_umask="0002"          # UMask the Service will run as
         branch="master"           # {Update me if needed} branch to install
+        breakdlbase="https://radarr.servarr.com/v1/update/$branch/updatefile?os=linux&runtime=netcore"
         break
         ;;
     readarr)
@@ -98,6 +101,7 @@ select app in lidarr prowlarr radarr readarr sonarr whisparr quit; do
         app_prereq="curl sqlite3" # Required packages
         app_umask="0002"          # UMask the Service will run as
         branch="develop"          # {Update me if needed} branch to install
+        dlbase="https://readarr.servarr.com/v1/update/$branch/updatefile?os=linux&runtime=netcore"
         break
         ;;
     sonarr)
@@ -105,6 +109,7 @@ select app in lidarr prowlarr radarr readarr sonarr whisparr quit; do
         app_prereq="curl sqlite3 wget"  # Required packages for Sonarr
         app_umask="0002"                # UMask the Service will run as
         branch="main"                   # {Update me if needed} branch to install
+        dlbase="https://services.sonarr.tv/v1/download/$branch/latest?version=4&os=linux"
         break
         ;;
     whisparr)
@@ -112,6 +117,7 @@ select app in lidarr prowlarr radarr readarr sonarr whisparr quit; do
         app_prereq="curl sqlite3" # Required packages
         app_umask="0002"          # UMask the Service will run as
         branch="nightly"          # {Update me if needed} branch to install
+        dlbase="https://whisparr.servarr.com/v1/update/$branch/updatefile?os=linux&runtime=netcore"
         break
         ;;
     quit)
